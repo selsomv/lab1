@@ -1,20 +1,37 @@
 /* applies to anything of class "example-class-selector" */
-.example-class-selector {
-	margin-top: 2em;
+.project {
+	margin-left: 20px;
 }
 
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
-	color: #CC00AA;
-}
+     .center {
+          text-align: center;
+     }
+          .pink {
+          background-color: rgb(255, 204, 204);
+     }
+     .blue {
+          background-color: rgb(153, 230, 255);
+     }
+     .green {
+          background-color: rgb(230, 255, 153);
+     }
+
+     img {
+          max-width: 100%;
+          width: 500px;
+          height: auto; 
+     }
+     img:hover {
+          box-shadow: 0 0 2px 1px rgba(255, 153, 51, 0.5);
+     }
+     div {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          font-family: Helvetica;
+     }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
-}
 
 .jumbotron {
 	position: relative;
